@@ -1,0 +1,12 @@
+node_modules
+frontend/node_modules
+.git
+.github
+.gemini
+__pycache__
+*.pyc
+venv
+.venv
+dist
+frontend/dist
+.DS_Store
