@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OceanTwin - Intelligent 3D Ocean Digital Twin & Observation Platform
-Smart India Hackathon 2026 | PS ID: SIH 26067 | Team: Pheonix (ID: 50)
+Smart India Hackathon 2026 | PS ID: SIH 26067 | Team: Codeflex
 
 Unified Runner Script to launch the Full-Stack Application
 """
