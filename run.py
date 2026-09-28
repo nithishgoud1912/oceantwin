@@ -21,7 +21,7 @@ if __name__ == "__main__":
     print("=" * 70)
     print("  OCEANTWIN: Intelligent 3D Ocean Digital Twin & Observation Platform")
     print("  Smart India Hackathon 2026 - Problem Statement: SIH 26067")
-    print("  Theme: Disaster Management | Team Pheonix (ID: 50)")
+    print("  Theme: Disaster Management | Team Codeflex (ID: 50)")
     print("=" * 70)
     port = int(os.environ.get("PORT", 8080))
     print(f"  - Server running on port: {port}")
