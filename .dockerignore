@@ -10,3 +10,7 @@ venv
 dist
 frontend/dist
 .DS_Store
+audit
+.audit
+.pytest_cache
+frontend/.audit-npm-cache

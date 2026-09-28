@@ -15,6 +15,9 @@ env/
 # Environment/secrets
 .env
 .env.*
+!.env.example
+!.env.sample
+!.env.template
 
 # OS
 .DS_Store
@@ -26,5 +29,13 @@ Thumbs.db
 # Python cache
 .pytest_cache/
 
-# Large/generated files
-*.pyc
+# Generated Python packaging and analysis artifacts
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/

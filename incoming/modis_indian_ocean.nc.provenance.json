@@ -1,0 +1,14 @@
+{
+  "file": "incoming\\modis_indian_ocean.nc",
+  "shape": {
+    "time": 3,
+    "lat": 720,
+    "lon": 1200,
+    "bounds": 2
+  },
+  "sources": [
+    "AQUA_MODIS.20250907.L3m.DAY.CHL.chlor_a.4km.NRT.nc",
+    "AQUA_MODIS.20250908.L3m.DAY.CHL.chlor_a.4km.NRT.nc",
+    "AQUA_MODIS.20250909.L3m.DAY.CHL.chlor_a.4km.NRT.nc"
+  ]
+}

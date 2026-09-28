@@ -29,5 +29,5 @@ if __name__ == "__main__":
     print(f"  - Backend API: http://localhost:{port}/docs")
     print("=" * 70)
 
-    uvicorn.run("main:app", app_dir=str(BACKEND_DIR), host="0.0.0.0", port=port, reload=False)
+    uvicorn.run("main:app", app_dir=str(BACKEND_DIR), host=os.environ.get("HOST", "127.0.0.1"), port=port, reload=False)
 

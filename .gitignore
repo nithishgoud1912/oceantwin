@@ -26,5 +26,26 @@ Thumbs.db
 # Antigravity artifacts
 .gemini/
 
-# Unused historical raw files over 100MB (GitHub 100MB limit)
+# Local credentials and machine-specific environment (keep templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Logs, temporary files and local tooling caches
+*.log
+*.tmp
+*.temp
+*.swp
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local reviews and historical archives
 archive/
+audit/
+.audit/

@@ -1,0 +1,22 @@
+# Installed dependencies and local package-manager cache
+node_modules/
+.audit-npm-cache/
+.npm/
+
+# Generated production bundles and development caches
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# Generated test and browser-test reports
+coverage/
+playwright-report/
+test-results/
+
+# Local environment overrides (keep shareable templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template

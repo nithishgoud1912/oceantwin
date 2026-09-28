@@ -1,0 +1,20 @@
+{
+  "ctd_cruise_01": {
+    "file": "incoming/ctd_cruise_01.csv",
+    "kind": "ctd",
+    "delimiter": ",",
+    "columns": {
+      "id": "station_id",
+      "profile": "cast_id",
+      "time": "timestamp_utc",
+      "lat": "latitude",
+      "lon": "longitude",
+      "pressure": "pressure_dbar",
+      "temperature": "temperature_c",
+      "salinity": "salinity_psu",
+      "qc": "quality_flag"
+    },
+    "units": {"temperature": "degC", "salinity": "psu"},
+    "good_qc": [1, 2]
+  }
+}
